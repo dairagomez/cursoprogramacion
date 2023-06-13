@@ -4,39 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo.css">
     <title>mi primer HTML</title>
+    
 </head>
-<body>
-    <h1>Daira Gomez</h1>
-    <img src="mabel copy.png" style="width: 200px;">
-    <h2>Edad</h2>
-    <p>Tengo diecinueve años.</p>
-    <h2>Domicilio</h2>
-    <p>Mariaco Acosta, Villa lynch</p>
-    <h3>Que series me gustan?</h3>
-    <ul>
-        <li>The walking dead</li>
-        <li>Shadowhunters</li>
-        <li>the wampire diaries</li>
-    </ul>
-    <h3>Que peliculas me gustan?</h3>
-    <ol>
-        <li>Coraline</li>
-        <li>Tres metros sobre el cielo</li>
-        <li>Labyrinth</li>
-    </ol>
-    <h6>perfil</h6>
-    <p>Me gusta leer</p>
-    <p>Me gusta estudiar</p>
-    <p>Me gusta cocinar</p>
 
-    <h2>Si quieres contactarme completa el siguiente formulario</h2>
-    <form actions="">
-        <label for="">Nombre</label>
-        <input type="text">
-        <input type="submit" value="enviar">
-    </form>
-    
-    
+<body class="contenedor-padre">
+
+  <header class="nombre-imagen">
+      <img src="mabel copy.png" style="width: 200px;">
+      <h1>DAIRA GOMEZ </h1>
+     
+   </header>
+ 
+   <section class="contenedor-informacion">
+      <main>
+         <div>
+            <h2>INFORMACION PERSONAL</h2>
+               <h3>EDAD</h3> 
+               <p >Tengo diecinueve años</p>
+               <h3>DOMICILIO</h3>
+               <p >Mariaco Acosta, Villa lynch</p>
+           </div>
+      </main>
+   
+      
+         <aside class="contenedor-preguntas">
+            <H2>PREGUNTAS</H2>
+   
+            <h3>QUE SERIES ME GUSTAN?</h3>
+            <ul>
+                <li>The walking dead</li>
+                <li>Shadowhunters</li>
+                <li>the wampire diaries</li>
+            </ul>
+   
+            <h3>QUE PELICULAS ME GUSTAN?</h3>
+            <ol>
+                <li>Coraline</li>
+                <li>Tres metros sobre el cielo</li>
+                <li>Labyrinth</li>
+            </ol>
+         </aside>
+   </section>
+
+      <footer class="contenedor-formulario">
+         <h2>SI QUIERES CONTACTARME COMPLETA EL SIGUIENTE FORMULARIO</h2>
+         <form actions="">
+          <label for="">NOMBRE</label>
+          <input type="text">
+          <input type="submit" value="enviar">
+      </form>
+      
+      </footer>
+   
+      
+      
+  
+
+
+   
+
+
 </body>
-</html>

@@ -1,0 +1,51 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: lightgray;
+   
+}
+img {
+    height: 200px;
+    border-radius: 15%;
+}
+.contenedor-padre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+
+}
+.nombre-imagen {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 500px;
+    
+    
+}
+
+.contenedor-informacion{
+    display: flex;
+    align-content: space-evenly;
+    height: 300px;
+}
+.contenedor-preguntas {
+    margin-left: 30px;
+}
+
+.contenedor-formulario {
+    display: flex;
+    flex-direction: column;
+
+
+
+  
+}
+
+form{
+    margin-left: 250px;
+}
